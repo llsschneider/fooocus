@@ -1,11 +1,11 @@
 {
-    "default_model": "bigLovexl25.safetensors",
+    "default_model": "juggernautXL_v8Rundiffusion.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
             true,
-            "dmd2_sdxl_4step_lora.safetensors",
+            "None",
             1.0
         ],
         [
@@ -31,29 +31,29 @@
     ],
     "default_cfg_scale": 4.0,
     "default_sample_sharpness": 2.0,
-    "default_sampler": "lcm",
-    "default_scheduler": "exponencial",
-    "default_performance": "Quality",
+    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_scheduler": "karras",
+    "default_performance": "Extreme Speed",
     "default_prompt": "",
     "default_prompt_negative": "",
     "default_styles": [
         "Fooocus V2",
         "Fooocus Enhance",
-        "Fooocus Sharp",
-        "Fooocus Masterpiece"
+        "Fooocus Sharp"
     ],
     "default_aspect_ratio": "1152*896",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "bigLovexl25.safetensors": "https://huggingface.co/LeoSchneiderBR/fav_models/blob/main/BigLoveXL25.safetensors",
         "juggernautXL_v8Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_v8Rundiffusion.safetensors",
-        "dmd2_sdxl_4step_lora.safetensors": "https://huggingface.co/LeoSchneiderBR/fav_models/blob/main/dmd2_sdxl_4step_lora.safetensors",
-        "subtle-rayness2-xl25.safetensors": "https://huggingface.co/LeoSchneiderBR/fav_models/blob/main/subtle-rayness2-xl25.safetensors",
-        "subtle-spreadpussy-xl25.safetensors": "https://huggingface.co/LeoSchneiderBR/fav_models/blob/main/subtle-spreadpussy-xl25.safetensors",
-        "subtle-ultrares1-xl25.safetensors": "https://huggingface.co/LeoSchneiderBR/fav_models/blob/main/subtle-ultrares1-xl25.safetensors"
+        "bigLovexl25.safetensors": "https://huggingface.co/LeoSchneiderBR/fav_models/resolve/main/bigLove_xl25.safetensors"
     },
     "embeddings_downloads": {},
-    "lora_downloads": {},
+    "lora_downloads": {
+        "dmd2_sdxl_4step_lora.safetensors": "https://huggingface.co/LeoSchneiderBR/fav_models/resolve/main/dmd2_sdxl_4step_lora.safetensors",
+        "subtle-rayness2-xl25.safetensors": "https://huggingface.co/LeoSchneiderBR/fav_models/resolve/main/subtle-rayness2-xl25.safetensors",
+        "subtle-spreadpussy-xl25.safetensors": "https://huggingface.co/LeoSchneiderBR/fav_models/resolve/main/subtle-spreadpussy-xl25.safetensors",
+        "subtle-ultrares1-xl25.safetensors": "https://huggingface.co/LeoSchneiderBR/fav_models/resolve/main/subtle-ultrares1-xl25.safetensors"
+    },
     "previous_default_models": [
         "juggernautXL_version8Rundiffusion.safetensors",
         "juggernautXL_version7Rundiffusion.safetensors",
