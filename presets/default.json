@@ -1,12 +1,12 @@
 {
-    "default_model": "juggernautXL_v8Rundiffusion.safetensors",
+    "default_model": "bigLovexl25.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
             true,
-            "sd_xl_offset_example-lora_1.0.safetensors",
-            0.1
+            "dmd2_sdxl_4step_lora.safetensors",
+            1.0
         ],
         [
             true,
@@ -31,17 +31,18 @@
     ],
     "default_cfg_scale": 4.0,
     "default_sample_sharpness": 2.0,
-    "default_sampler": "dpmpp_2m_sde_gpu",
-    "default_scheduler": "karras",
-    "default_performance": "Speed",
+    "default_sampler": "lcm",
+    "default_scheduler": "exponential",
+    "default_performance": "Quality",
     "default_prompt": "",
     "default_prompt_negative": "",
     "default_styles": [
         "Fooocus V2",
         "Fooocus Enhance",
-        "Fooocus Sharp"
+        "Fooocus Sharp",
+        "Fooocus Masterpiece"
     ],
-    "default_aspect_ratio": "1152*896",
+    "default_aspect_ratio": "1024*1536", // "1152*896",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
         "juggernautXL_v8Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_v8Rundiffusion.safetensors",
@@ -53,7 +54,8 @@
         "dmd2_sdxl_4step_lora.safetensors": "https://huggingface.co/LeoSchneiderBR/fav_models/resolve/main/dmd2_sdxl_4step_lora.safetensors",
         "subtle-rayness2-xl25.safetensors": "https://huggingface.co/LeoSchneiderBR/fav_models/resolve/main/subtle-rayness2-xl25.safetensors",
         "subtle-spreadpussy-xl25.safetensors": "https://huggingface.co/LeoSchneiderBR/fav_models/resolve/main/subtle-spreadpussy-xl25.safetensors",
-        "subtle-ultrares1-xl25.safetensors": "https://huggingface.co/LeoSchneiderBR/fav_models/resolve/main/subtle-ultrares1-xl25.safetensors"
+        "subtle-ultrares1-xl25.safetensors": "https://huggingface.co/LeoSchneiderBR/fav_models/resolve/main/subtle-ultrares1-xl25.safetensors",
+        "subtle-lighting1-xl25.safetensors": "https://huggingface.co/LeoSchneiderBR/fav_models/resolve/main/subtle-lighting1-xl25.safetensors"
         
     },
     "previous_default_models": [
