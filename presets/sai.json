@@ -45,7 +45,7 @@
     "checkpoint_downloads": {
         "sd_xl_base_1.0_0.9vae.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors",
         "sd_xl_refiner_1.0_0.9vae.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0_0.9vae.safetensors",
-        "bigLove_xl25.safetensors": "https://huggingface.co/LeoSchneiderBR/fav_models/blob/main/bigLove_xl25.safetensors"
+        "bigLovexl25.safetensors": "https://huggingface.co/LeoSchneiderBR/fav_models/blob/main/BigLoveXL25.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
